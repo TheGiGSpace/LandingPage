@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="90" fill="#045757" />
+  <text x="100" y="115" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">TheGIGSpace</text>
+  <path d="M50,80 C50,60 80,60 100,80 C120,60 150,60 150,80 C150,100 120,130 100,130 C80,130 50,100 50,80 Z" fill="none" stroke="white" stroke-width="4" />
+</svg>
