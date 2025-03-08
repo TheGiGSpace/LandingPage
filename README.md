@@ -22,8 +22,8 @@ TheGIGSpace landing page is designed to be mobile-first, with an emphasis on cre
 
 The design follows the specifications outlined in `DesignConfigs.md`, which includes:
 
-- Color Palette: Primary colors (#222222, #045757, #044343) with accent (#E4E4E4)
-- Typography: Inter font (clean, sans-serif)
+- Color Palette: Primary black background with teal accent color (#4ECCA3)
+- Typography: Modern sans-serif fonts with appropriate hierarchy
 - Responsive layout: Mobile-first approach with adaptive designs for larger screens
 - Interactive elements: Subtle animations and hover effects
 
@@ -38,8 +38,8 @@ The design follows the specifications outlined in `DesignConfigs.md`, which incl
 
 1. Clone the repository
 ```
-git clone https://github.com/your-username/thegigspace-landing.git
-cd thegigspace-landing
+git clone https://github.com/TheGiGSpace/LandingPage.git
+cd LandingPage
 ```
 
 2. Install dependencies
@@ -67,26 +67,18 @@ TheGIGSpace-Landing/
 │   ├── components/
 │   │   ├── Header.jsx
 │   │   ├── Hero.jsx
+│   │   ├── AnimatedLogo.jsx
 │   │   ├── ProductBrief.jsx
 │   │   ├── HowItWorks.jsx
 │   │   ├── ScreenshotGallery.jsx
 │   │   ├── CTA.jsx
 │   │   └── Footer.jsx
 │   ├── App.jsx
-│   ├── index.jsx
+│   ├── main.jsx
 │   ├── index.css
-│   └── tailwind.config.js
+│   └── lib/utils.js
 └── DesignConfigs.md
 ```
-
-## Customization
-
-To customize this landing page for your needs:
-
-1. Replace placeholder content in component files
-2. Add actual app screenshots to the `/public/assets/images/` directory
-3. Update the color scheme in `tailwind.config.js` to match your brand
-4. Modify the navigation links and CTA buttons as needed
 
 ## License
 
